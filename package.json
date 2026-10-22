@@ -4,6 +4,9 @@
   "description": "A MCP Server for Langfuse Prompt Management",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "^22.23.4 || ^24.22.1"
+  },
   "bin": {
     "mcp-server-langfuse": "./build/index.js"
   },
@@ -14,9 +17,9 @@
     "build"
   ],
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.5.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "langfuse": "^3.35.2",
-    "zod": "^3.24.2"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
